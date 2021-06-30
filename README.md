@@ -68,8 +68,13 @@ Phần 1. Thư mục backend
           └── main.exe
 
 
-  1. Vào thư mục backend: cd > backend
-  2. Chạy lệnh go run . để chạy server
+  1. Vào thư mục backend: ```bash cd > backend ```
+  2. Lấy mã trong thư mục sql gồm 2 file OnlineShop.sql và AddData.sql bỏ vào mysql để chạy tạo cơ sở dữ liệu gồm các bảng và data
+  
+   ![image](https://user-images.githubusercontent.com/59026656/124004782-8fa9ed00-da02-11eb-97b8-85417e26cc07.png)
+
+  4. Chạy lệnh ```bash go get all ``` để tải xuống các package phụ thuộc trong file go.mod
+  5. Chạy lệnh ```bash go run . ``` để khởi chạy server. Server sẽ chạy trên cổng 3000 
  
 
 Phần 2. Thư mục backend
